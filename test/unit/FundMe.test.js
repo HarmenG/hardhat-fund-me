@@ -90,6 +90,7 @@ const { developmentChains } = require("../../helper-hardhat-config")
                   // Arrange
                   const accounts = await ethers.getSigners()
                   for (i = 1; i < 6; i++) {
+                      //0 index will be deployer start on index 1
                       const fundMeConnectedContract = await fundMe.connect(
                           accounts[i]
                       )

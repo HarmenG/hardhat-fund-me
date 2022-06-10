@@ -4,12 +4,13 @@ pragma solidity ^0.8.0;
 // 2. Imports
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 import "./PriceConverter.sol";
+//import "hardhat/console.sol";//console.log for sol
 
 // 3. Interfaces, Libraries, Contracts
 error FundMe__NotOwner();
 
 /**@title A sample Funding Contract
- * @author Patrick Collins
+ * @author Harmen de Groot
  * @notice This contract is for creating a sample funding contract
  * @dev This implements price feeds as our library
  */
